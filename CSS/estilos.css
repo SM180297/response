@@ -1,0 +1,48 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: aqua;
+}
+
+.diseño1 {
+    font-size: 10px;
+    background-color: blueviolet;
+    width: 7.1875rem;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    float: left;
+
+
+}
+
+.diseño1 .diseño2subclase {
+    font-size: 2rem;
+    background-color: rgb(208, 199, 218);
+
+
+}
+
+.diseño2 {
+    background-color: wheat;
+    float: left;
+
+}
+
+/*768 tablet  */
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 40px;
+    }
+}
+
+/* 480 mobile  */
+@media screen and (max-width: 480px) {
+
+    html {
+        font-size: 60px;
+    }
+
+}
